@@ -14,7 +14,9 @@ body{
     display: flex; */
     scroll-behavior: smooth;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 header{
     display: flex;
     justify-content: center;
