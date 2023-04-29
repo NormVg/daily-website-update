@@ -1,0 +1,41 @@
+body{
+    
+    padding: 0;
+    margin: 0%;
+    background-color: #0a0e16;
+    /* background-image: url("/img/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+    color: white;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+}
+
+/*  THIS THE SCROLL-BARR */
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    
+    border-radius: 15px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff5555a6; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #50fa7b; 
+  }
+
+/* END OF SCHROLL BAR */

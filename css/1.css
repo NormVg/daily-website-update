@@ -1,0 +1,144 @@
+body{
+    
+    padding: 0;
+    margin: 0%;
+    background-color: #0a0e16;
+    background-image: url("/img/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#⭐{
+    color:#c0021a;
+    
+}
+#⭐:hover{
+    color: #535b64;
+}
+
+#intro{
+    margin-top: 10%;
+}
+
+#intro h1 {
+    font-size: 50px;
+}
+
+#intro #disc{
+    color: #c0c3c5;
+    word-spacing: 4px;
+    font-size: 18px;
+}
+
+.tt{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #c0021a;
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 12px;
+    height: 30px;
+}
+
+#scrl-intro{
+    margin-top: 80px;
+    font-size: 10px;
+    
+}
+#scrl-intro a{
+    animation: flicker 1.5s infinite;
+}
+#scrl-intro img{
+    width: 15px;
+    margin-left: 17px;
+    
+}
+
+@keyframes flicker {
+    0% {margin-top: 0px; margin-bottom: 5px;}
+    50% {margin-top: 5px;margin-bottom: 0px;}
+    100% {margin-top: 0px;margin-bottom: 5px;}
+}
+
+#tt-discord{
+    padding-right: 20px;
+    padding-left: 15px;
+    display: flex;
+}
+
+#about{
+    background: #0a0e16 ;
+}
+
+
+/* respomsive */
+@media only screen and (max-width: 768px) {
+#nav{
+    justify-content: center;
+}
+#intro h1 {
+    font-size: 40px;
+}
+.tt{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#intro{
+    margin-top: 100px;
+}
+#scrl-intro{
+    margin-top: 30px;
+}
+
+#tt-discord{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+  }
+
+
+/*  THIS THE SCROLL-BARR */
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    
+    border-radius: 15px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff5555a6; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #50fa7b; 
+  }
+
+/* END OF SCHROLL BAR */
