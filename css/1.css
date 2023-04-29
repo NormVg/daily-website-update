@@ -14,9 +14,11 @@ body{
     display: flex; */
     scroll-behavior: smooth;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 #home{
     height: 100vh;
 }
@@ -91,10 +93,33 @@ header{
 #about{
     background: #0a0e16 ;
 }
+#scr-up-img{background: white; border-radius: 100%; width: 40px;}
+#scr-up{
+width: 40px;
+height: 40px;
+
+
+}
+
+#foot-1{
+padding: 20px;
+    
+    background-color: #0a0e16;
+    background-image: url("/img/foot-bg.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* background-position: center; */
+    /* background-size: contain; */
+}
+
+
+
 
 
 /* respomsive */
 @media only screen and (max-width: 768px) {
+
 #nav{
     justify-content: center;
 }
