@@ -165,6 +165,11 @@ font-family: 'Quicksand', sans-serif;
     color: #FFFFFF;
 }
 
+#img-hand-about{
+    
+    display: flex;
+    justify-content: center;
+}
 
 #scr-up-img{background: white; border-radius: 100%; width: 40px;}
 #scr-up{
