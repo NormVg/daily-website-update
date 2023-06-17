@@ -126,6 +126,7 @@ font-family: 'Quicksand', sans-serif;
 .about-tab-bar{
     background-color: #141B2D;
     min-width: 295px;
+    max-width: 310px;
     min-height: 350px;
     box-shadow: 20px 20px 50px 5px black;
    
